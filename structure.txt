@@ -1,0 +1,27 @@
+1. Features
+Add, view, update, and delete bills.
+Manage electricity, internet, mobile, rent, and other bills.
+Record bill payments.
+Track paid and unpaid bills.
+View upcoming due dates.
+Calculate total monthly expenses.
+View payment history.
+Save records using JSON files.
+
+2. Project structure:
+Personal_Bill_Payment_Tracker/
+│
+├── main.py
+├── bill_manager.py
+├── payment_manager.py
+├── report_manager.py
+├── storage.py
+├── utils.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── bills.json
+    └── payments.json
